@@ -1,0 +1,280 @@
+.end {
+	min-height: 500px;
+}
+
+body {
+    font-family: 'Manrope';
+    background-color: #001a2d;      
+    color: white;  
+}
+
+#main {              
+    display: block;     
+    left:20%;        
+    width: 1400px;      
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    min-height: 100%;
+}
+
+.top {               
+    display: block;
+    height: 70px; 
+}      
+
+.flightInfo {          
+    margin-top: 50px;     
+    display: block;
+}    
+
+.flight {
+	background-color: #023152;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 30px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.flights {
+	float: left;
+}
+
+.fromTo {
+    font-size: 35px;
+    padding: 20px;
+}
+
+#logo {
+    width:200px;
+    padding: 10px;
+}
+
+.auth {
+    color: white;                  
+    float: right;
+    padding: 20px 40px 20px;
+}
+
+.authBtn {
+    border: none;    
+    background-color: #023152; 
+    cursor: pointer !important;
+    font-family: 'Manrope';
+    color: white;  
+     
+    font-size: 13px;
+    height: 20px;
+    width: 100px;
+    border-radius: 20px;                 
+}
+
+.searchBtn:hover, .authBtn:hover {
+    background-color: white;
+    color: #023152; 
+    transition: 0.4s;
+}
+
+.dateInfo {
+    margin-top: 50px;   
+    text-align: center;
+}
+
+.changeDateBtn, .anotherDate, .currentDate, #previousDate, #nextDate {
+    display: inline-block;
+}
+
+.anotherDate, .currentDate {
+    width: 250px;    
+    font-size: 40px;
+    padding: 20px;
+}
+
+.currentDate {
+    background-color: #023152;
+    color: white;
+}
+
+.anotherDate {
+    background-color: #01233b;
+}
+
+.changeDateBtn {
+    font-size: 35px;
+    font-family: 'Manrope';
+    border-radius: 50px; 
+    width: 100px;
+    border: none;
+    cursor: pointer !important;
+    color: white;
+    background-color: #001a2d;
+    padding: 10px;
+}
+
+.changeDateBtn:hover {
+    background-color: #023152;
+    transition: 0.4s;
+}
+
+.ticket {
+	margin-top: 20px;
+    background-color: #01233b;
+    min-height: 100px;
+    height: auto;
+    padding: 30px;
+    overflow: auto;
+	border-radius: 20px;
+	overflow: hidden;
+	
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.chooseTicket {
+    margin-top: 50px;
+    height: 250px;
+    padding-bottom: 500px;
+}
+
+.time {
+    font-size: 35px;
+    width: 700px;
+}
+
+.ticketPrice {
+	font-size: 25px;
+	top: 30px;
+}
+
+.smallInfo {
+	width: 700px;
+}
+
+.apCode {
+    font-size: 40px;
+}
+
+.price {
+    font-size: 30px;
+    float: right;
+    text-align: center;
+    
+    margin-top: 1%;
+}
+
+.chooseTicketBtn {
+    width: 130px;
+	background-color: #023152;
+	color: white;
+	border: none;	
+	font-size: 25px;
+	font-family: 'Manrope';
+	border-radius: 10px;
+    cursor: pointer !important;
+    
+    text-align: center;
+    outline: none;
+}
+
+.chooseTicketBtn:hover {
+    background-color: white;
+    color: #023152;
+    transition: 0.4s;
+}
+
+.chooseTicketBtn:focus {
+    border: none;
+}
+
+.fTime {
+    font-size: 25px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;     
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	width: 134px;
+	overflow: auto;
+	border: 1px solid #001a2d;
+	z-index: 1;
+	border-radius:20px;
+	
+	background-color: #023152;
+	font-size: 20px;
+	
+	bottom: 40px;
+}
+
+.ticketTypeBtn {
+	width: 100%;
+	height: 100%;
+	font-family: "Manrope";
+	font-size: 20px;
+	background-color: #023152;
+	color: white;
+	border: none;
+	cursor: pointer !important;
+}
+
+.ticketTypeBtn:hover {
+	background-color: white;
+	color: #023152;
+	transition: 0.4s;
+}
+
+#typesInfo {
+	display: none;
+	position:absolute;
+	top:-120px;
+	left:-300px;  
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: left;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.dropdown-content:hover + #typesInfo {
+	display: block;
+}
+
+.typeLogo {
+	height: 40px;
+}
+
+.infoTable, .infoTable th, .infoTable tr {
+	border: 4px solid white;
+  	border-collapse: collapse;  
+  	text-align: center;
+}
+
+.infoTable th, .infoTable tr {
+	height: 20px;
+	width: 20px;
+	overflow: hidden;
+}
+
+.microText {
+	font-size: 10px;
+	top: 1px;
+	display: block;
+}
+
+.show {display: block;}
+
+/*
+.top {
+    background-color: white;
+}
+
+.flightInfo {               
+    background-color: aqua;
+}    
+*/

@@ -1,0 +1,286 @@
+  html {
+    background-color:#001a2d;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    height:100%;
+    font-family: 'Manrope';
+  }
+
+  #main {              
+    display: block;       
+    width: 1500px;      
+    margin-left: auto;
+    margin-right: auto;      
+  }
+  
+  #top {
+  	display: block;
+  }
+
+  #logo {
+    width:200px;
+  }  
+  
+  table {
+  	background-color: none;
+  	font-size: 20px;  	  	
+  	color: white;
+  }
+  
+  table, th, td {
+  	border: 2px solid #023152;
+  	border-collapse: collapse;  	
+  }
+
+  th {
+	width: 150px;
+	height: 50px;
+  }
+  
+  td:hover, th:hover {
+  	background: #023152;
+  }
+  
+  td {
+  	height: 40px;
+    width: 50px;	
+    text-align: center;
+  }
+  
+  
+  .invisibleTd:hover {
+  	background: #001a2d;
+  }
+  
+  h3 {
+  	color: white;
+  }
+  
+  input[type="submit"] {
+  	font-family: 'Manrope';  	
+  	cursor: pointer !important;
+  }
+  
+  .addInput {
+  	height: 30px;
+  	width: 90%;
+   	font-family: 'Manrope';
+   	text-align: center;
+   	font-size: 20px;
+   	
+   	font-family: 'Manrope';  	
+  	cursor: pointer !important;
+  	background-color: #023152;
+	color: white;
+	border-radius: 10px;
+  }
+  
+  .appplyBtn {
+      	width: 100px;
+		background-color: #CC5500;
+		color: white;
+		border: none;	
+		font-size: 20px;
+		font-family: 'Manrope';
+		border-radius: 10px;
+		margin-bottom: 10px;			
+      }
+      
+      .appplyBtn:hover {
+      	background-color: #db5d02;
+      	transition: 0.4s;
+      }
+      
+      
+	input[type="submit"] {
+		border-radius: 10px;
+	}	
+
+	.tabBtn, .currentBtn {
+		height: 40px;
+		width: 200px;
+		font-size: 20px;		
+		color: white;
+		border: none;
+	}
+	
+	.eOrDbtn, .confBtn {
+		width: 100px;
+		background-color: #001a2d;
+		color: white;
+		border: none;	
+		font-size: 20px;
+		font-family: 'Manrope';
+		border-radius: 10px;
+	}
+	
+	.confBtn {
+		display: inline-block;
+	}
+
+	.tabBtn {
+		background-color: #001a2d;
+	}
+	
+	.tabBtn:hover, .eOrDbtn:hover {
+		background-color: #023152;
+		transition: 0.4s;
+	}
+
+	.currentBtn {
+		background-color: #023152;
+	}
+  
+  input[type="text"]::placeholder { 
+	text-align: center;
+  }
+
+	a {
+		text-decoration:none;
+	}
+	
+	a:active {color:#000000;} 
+
+	.tables {
+		text-align: center;		
+		display: flex;
+	}
+
+	.txt {
+		font-size: 20px;
+		color: white;			
+	}
+	
+	.btnTh {
+		width: 120px;
+	}
+
+	.tabs {
+		width: 100px;		
+		display:inline-table;
+		float: right;
+	}
+
+	.tab {		
+		display: table-cell;
+		padding: 12px 10px;
+	}
+	
+	input {
+		background-color: #023152;
+		color: white;
+		border-radius: 10px;
+		
+	}
+	
+	.justForPadding {
+		padding: 10px;
+	}
+	
+	.confirmation, .confirmation2 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      .confWindow, .confWindow2 {
+        width: 300px;        
+        text-align: center;
+        padding: 20px 10px;
+        border: 3px solid #023152;
+        border-radius: 20px;
+        color: #023152;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: white;                      
+      }
+      .confWindow {
+      	height: 100px;
+      }
+      .confWindow2 {
+      	height: 150px;
+      }
+      .confirmation:target {display: block;}            
+      .confirmation2:target {display: block;}
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;               
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 150px;
+        overflow: auto;
+        border: 1px solid #001a2d;
+        z-index: 1;
+        border-radius:10px;                
+      }
+
+      .dropdown-content a, b {        
+        color: black;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;       
+      }
+
+      .dropdown a:hover {background-color: #ddd;}
+
+      .show {display: block;}
+
+		.filters {
+			padding: 10px 10px;
+		}
+
+      .filterInput {
+      	width: 150px;
+		background-color: #023152;
+		color: white;
+		border: none;	
+		font-size: 20px;
+		font-family: 'Manrope';
+		border-radius: 10px;
+		text-align: center;
+		cursor: pointer !important;
+      }
+      
+      .filterInput:focus {
+      	outline: green;
+      }
+      
+      .lbl {
+      	display: block;
+    	padding-top: 2px 2px;
+    	
+      }        
+      
+      .filterOptions {
+      	height: 150px;
+      	overflow-y: scroll;
+      	text-align: left;      	
+      }
+            
+      .downloadBtn {      
+      	padding: 5px;	      	
+      	margin-top: 20px;
+      	width: 150px;
+		background-color: #023152;
+		color: white;
+		border: none;	
+		font-size: 15px;
+		font-family: 'Manrope';
+		border-radius: 10px;
+		text-align: center;
+		cursor: pointer !important;
+      }
+	

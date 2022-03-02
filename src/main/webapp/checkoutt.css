@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+	  html { 
+        overflow:  hidden; 
+      }
+      
+      body {
+        font-family: 'Manrope';
+        background-color: #001a2d;        
+      }          
+      
+
+    .flightInfo {
+        background-color: #01233b;
+        padding: 40px;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .flightInfo a {
+        font-size: 30px;
+        color: white;
+    }
+
+    .fromTo {
+        float: left;
+    }
+
+    .price {
+        float: right;
+    }
+
+    .dateOfBirth {
+        display: inline-block;
+    }
+
+    #dateOfBirth {
+        display: block;
+    }
+
+    .dateOfBirthTxt {
+        color: white;
+    }
+    
+    .passengerData {
+        background-color: #01233b;
+        padding: 40px;
+        border-radius: 20px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .paymentData {
+        background-color: #01233b;
+        padding: 40px;
+        border-radius: 20px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .passengerInput {
+        width: 300px;
+        height: 25px;
+        border-radius:30px;
+        padding:10px 10px;
+        font-size:17px;
+        font-family: 'Manrope';                
+        text-align: center;
+        outline: none;
+    }
+
+    .passengerType {
+        font-size: 30px;
+        color: white;
+    }
+
+    .buyBtn {
+        border: none;  
+		background-color: #ff5e00; 
+		cursor: pointer !important;
+		font-family: 'Manrope';
+		color: white;  
+		
+        font-size: 25px;
+        height: 55px;
+        width: 250px;
+        border-radius:30px;  
+        margin-top: 50px;                                               
+    }
+
+      input[type=date] {
+        font-size: 20px;
+        height: 45px;
+        width: 300px;
+        font-family: 'Manrope';
+        border-radius:20px;        
+        text-align:center;
+        font-size: 20px;
+        outline: none !important;
+      }
+
+      input[type="date"]::placeholder { 
+        text-align: center;        
+      }
+
+      input[type="text"]::placeholder { 
+        text-align: center;
+      }
+
+      #main {              
+        display: block;     
+       
+        width: 1400px;      
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+
+      .top {               
+        display: block;
+        height: 70px; 
+      }      
+
+      #logo {
+        width:200px;
+        padding: 10px;
+      }
+      .btnMinus, .btnPlus {
+        border-radius: 10px;
+        font-family: 'Manrope';  
+        vertical-align: center;
+        
+        background-color: white; 
+        color: #001a2d;  
+        cursor: pointer !important;
+      }
+      
+      .auth {
+        color: white;                  
+        float: right;
+        padding: 20px 40px 20px;
+      }
+
+      .authBtn {
+        border: none;    
+        background-color: white; 
+        cursor: pointer !important;
+        font-family: 'Manrope';
+        color: #001a2d;  
+         
+      font-size: 13px;
+      height: 20px;
+      width: 120px;
+      border-radius: 20px;                 
+    }
