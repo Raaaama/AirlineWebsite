@@ -10,7 +10,7 @@ public class MyDB {
     private static String url = "jdbc:mysql://localhost:3306/mydb";
 
     private static String username = "root";
-    private static String password = "Nazamari123@";
+    private static String password = "password";
     
     public MyDB(String username, String password){
     	MyDB.username = username;
